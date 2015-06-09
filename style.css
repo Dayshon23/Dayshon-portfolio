@@ -1,0 +1,62 @@
+#menu {
+  text-align: center;
+  
+}
+/*the background color of the menu */
+
+#menu nav {
+  background-color:#515151;
+  
+}
+
+#menu nav ul {
+  margin: 0px;
+  list-style: none;
+}
+/* displays the menu text inline */
+
+#menu nav ul li {
+  display: inline-block;
+}
+/* CCS for the text of the menu */
+
+#menu nav ul li a {
+  display: block;
+  padding:0 10px;	
+  color: #222;
+  font-size: 20px;
+  line-height: 60px;
+  text-decoration: none;
+}
+/* the linkedin social link */
+/* background color changes on hover*/
+
+#menu nav a:hover {
+  background-color: #979797;
+  line-height: 50px;
+  color: white;
+}
+/* specifies active tab */
+
+#menu nav a#active {
+  background-color: #191919;
+  line-height: 50px;
+  color: white;
+}
+
+#menu nav #social {
+  position: absolute;
+  top: 6%;
+  right: 2%;
+}
+.bannerimg{
+height:500px;
+width:1040px;
+position:relative;
+}
+#webwrapper{
+width:1040px;
+height:1040px;
+margin:auto;
+background-color:#FFF;
+}
